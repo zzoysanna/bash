@@ -3,6 +3,9 @@
 directory=$1; 
 vm-directory=$2;
 
+directory=$1;
+vm-directory=$2;
+
 fe-dir="$directory/shop-angular-cloudfront"
 be-dir="$directory/nestjs-rest-api"
 vm-fe-dir="$vm-directory/shop-fe"
